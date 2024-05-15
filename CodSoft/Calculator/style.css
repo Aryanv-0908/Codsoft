@@ -1,0 +1,73 @@
+/* Material Design Color Palette */
+:root {
+    --primary-color: #673AB7;
+    --primary-light: #9575CD;
+    --primary-dark: #512DA8;
+    --accent-color: #FF9800;
+    --text-color: #212121;
+    --background-color: #F5F5F5;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .display {
+    background-color: var(--primary-light);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  #result {
+    border: none;
+    font-size: 24px;
+    text-align: right;
+    width: 100%;
+    background-color: transparent;
+    color: var(--text-color);
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .btn {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .btn.operator {
+    background-color: var(--accent-color);
+  }
+  
+  .btn.operator:hover {
+    background-color: #F57C00;
+  }
+  

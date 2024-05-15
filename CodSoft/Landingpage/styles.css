@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #000033;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+  }
+  
+  nav ul li .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0.5rem;
+    min-width: 100%;
+  }
+  
+  nav ul li:hover .dropdown-menu {
+    display: block;
+  }
+body{
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    color: #072767;
+    line-height: 1.6;
+}
+#showcase{
+    background-image: url(../Landingpage/photo-1500964757637-c85e8a162699.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0.20px;
+}
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #0a2e75;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#showcase .button:hover{
+    background: #0a2e75;
+    color: #fff;
+}
+#first{
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: center;
+}
+#second{
+    padding: 20px;
+    background: #f4f4f4;
+    color: #0a2e75;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 32%;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box p {
+    text-align: center;
+  }
+  footer {
+    background-color: #f4f4f4;
+    color: #0a2e75;
+    padding: 1rem;
+    text-align: center;
+  }
