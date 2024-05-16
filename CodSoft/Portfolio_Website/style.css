@@ -110,3 +110,30 @@ main hr{
 .photo{
     position: relative;
 }
+footer{
+    background-color: rgb(1, 1, 41);
+    height: 233px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer > div{
+    width: 123px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    color: rgb(173, 173, 244);
+    font-size: 1.09rem;
+}
+footer .text-center{
+    text-align: center;
+    color: grey;
+}
